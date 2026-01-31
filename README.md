@@ -9,13 +9,12 @@ Website for **Kokkadan Footwear** - A family-owned shop in Edakkara, Malappuram,
 ## About
 
 Kokkadan Footwear is a one-stop shop for:
-- **Footwear** - Men's, Women's, Kids, Work & Safety, Sports
-- **Bags** - School bags, Handbags, Travel bags, Trolleys
-- **Sports Goods** - Cricket, Football, Badminton equipment
-- **Umbrellas** - Popy, Johns, Lala
+- **Footwear** - Shoes, Chappals, Slippers, Boots, Safety Shoes
+- **Bags** - School bags, Travel bags, Trolleys, Luggage
+- **Umbrellas** - Popy, Johns
 
 ### Brands We Carry
-Bata, VKC, Paragon, Sparx, Relaxo, Walkaroo, Skybags, American Tourister, and 100+ more.
+Bata, VKC, Sparx, Paragon, Flite, Walkaroo, Skybags, American Tourister, Aristocrat, Popy, Johns, Kitex
 
 ## Contact
 
@@ -37,7 +36,7 @@ Bata, VKC, Paragon, Sparx, Relaxo, Walkaroo, Skybags, American Tourister, and 10
 - WhatsApp integration for product enquiries
 - Click-to-call functionality
 - Google Maps embed
-- SEO optimized
+- Brand logos showcase
 
 ---
 
