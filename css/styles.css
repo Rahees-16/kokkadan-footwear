@@ -928,3 +928,38 @@ p {
   background: var(--color-primary-dark);
   transform: translateY(-2px);
 }
+
+/* ==================== Brands Logo Grid ==================== */
+.brands-logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.brand-logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(20%);
+  opacity: 0.85;
+  transition: var(--transition);
+}
+
+.brand-logo:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .brands-logo-grid {
+    gap: 1.5rem;
+  }
+
+  .brand-logo {
+    height: 40px;
+  }
+}
