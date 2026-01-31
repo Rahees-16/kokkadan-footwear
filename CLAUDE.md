@@ -15,7 +15,7 @@ kokkadan-footwear/
 │   └── styles.css       # Main stylesheet with CSS variables
 ├── js/
 │   └── main.js          # Mobile menu, smooth scroll
-├── brands/              # Brand logo images
+├── brands_products/              # Brand logos & product images
 │   ├── bata.png
 │   ├── vkc.png
 │   ├── sparx.png
@@ -27,7 +27,12 @@ kokkadan-footwear/
 │   ├── aristocrat.png
 │   ├── popy.png
 │   ├── johns.png
-│   └── kitex.png
+│   ├── kitex.png
+│   ├── schoolbag.png
+│   ├── ladies_bag.png
+│   ├── umberalla.png
+│   ├── belts.png
+│   └── sports.png
 ├── index.html           # Home page
 ├── products.html        # All products page
 ├── about.html           # About us page
@@ -65,10 +70,12 @@ kokkadan-footwear/
 ## Product Categories
 - Shoes
 - Chappals & Slippers
-- Bags & Luggage
 - School Bags
-- Boots
-- Safety Shoes
+- Ladies Bags
+- Umbrellas
+- Belts
+- Sports Goods
+- Travel Bags
 
 ## Contact Info
 - Phone: +91 94473 18825, +91 94478 15783
@@ -77,7 +84,7 @@ kokkadan-footwear/
 
 ## Development Notes
 - Product images use Unsplash stock photos
-- Brand logos stored locally in `/brands/` folder
+- Brand logos stored locally in `/brands_products/` folder
 - WhatsApp links pre-fill inquiry messages
 
 ## Commands
