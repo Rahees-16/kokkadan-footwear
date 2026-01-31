@@ -963,3 +963,174 @@ p {
     height: 40px;
   }
 }
+
+/* ==================== Hero Trust Line ==================== */
+.hero-trust {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* ==================== Category Description ==================== */
+.category-desc {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  margin-top: 0.25rem;
+}
+
+/* ==================== Why Choose Us ==================== */
+.why-choose-us {
+  background: var(--color-primary);
+  padding: 1.25rem 0;
+}
+
+.why-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.why-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-white);
+  font-weight: 500;
+}
+
+.why-icon {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .why-grid {
+    gap: 1rem;
+  }
+
+  .why-item {
+    font-size: 0.85rem;
+  }
+}
+
+/* ==================== Testimonials ==================== */
+.testimonials-section {
+  background: var(--color-background);
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.testimonial-card {
+  background: var(--color-white);
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.testimonial-author {
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 0.25rem;
+}
+
+.testimonial-since {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+}
+
+@media (max-width: 768px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==================== Footer Since ==================== */
+.footer-since {
+  color: var(--color-secondary);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* ==================== Timeline ==================== */
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.timeline-item {
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--color-background);
+  border-radius: var(--radius-lg);
+  position: relative;
+}
+
+.timeline-year {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.timeline-content h4 {
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content p {
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==================== Typography Improvements ==================== */
+body {
+  font-size: 17px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
