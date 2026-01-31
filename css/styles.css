@@ -519,11 +519,21 @@ p {
 
 .product-image {
   height: 180px;
-  background-color: var(--color-background);
-  background-size: contain;
+  background-color: #f5f0e8;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.product-image::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(107,45,45,0.05) 0%, rgba(212,168,71,0.05) 100%);
 }
 
 .product-content {
